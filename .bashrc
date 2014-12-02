@@ -22,9 +22,6 @@ export ARCHFLAGS='-arch i386 -arch x86_64'
 export EDITOR="vim"
 
 # ALIASES
-alias grep="grep --color=auto"
-alias ls="ls --color=auto"
-
 alias vim="mvim -v"
 
 
