@@ -11,6 +11,8 @@ ln -s mac-dotfiles/.bash_profile .bash_profile
 ln -s mac-dotfiles/.gitconfig .gitconfig
 ln -s mac-dotfiles/.gitignore .gitignore
 ln -s mac-dotfiles/.vimrc .vimrc
+ln -s mac-dotfiles/.vim/ .vim
+ln -s mac-dotfiles/ycm_build/ ycm_build
 
 # For virtualenvwrapper
 export WORKON_HOME=~/envs

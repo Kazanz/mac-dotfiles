@@ -1,0 +1,10 @@
+/Users/kazanz/mac-dotfiles/ycm_build/BoostParts/CMakeFiles/BoostParts.dir
+/Users/kazanz/mac-dotfiles/ycm_build/ycm/tests/CMakeFiles/copy_testdata.dir
+/Users/kazanz/mac-dotfiles/ycm_build/ycm/tests/gmock/CMakeFiles/gmock.dir
+/Users/kazanz/mac-dotfiles/ycm_build/ycm/tests/gmock/CMakeFiles/gmock_main.dir
+/Users/kazanz/mac-dotfiles/ycm_build/ycm/tests/gmock/gtest/CMakeFiles/gtest.dir
+/Users/kazanz/mac-dotfiles/ycm_build/ycm/tests/gmock/gtest/CMakeFiles/gtest_main.dir
+/Users/kazanz/mac-dotfiles/ycm_build/ycm/CMakeFiles/ycm_client_support.dir
+/Users/kazanz/mac-dotfiles/ycm_build/ycm/CMakeFiles/ycm_core.dir
+/Users/kazanz/mac-dotfiles/ycm_build/ycm/tests/CMakeFiles/ycm_core_tests.dir
+/Users/kazanz/mac-dotfiles/ycm_build/ycm/CMakeFiles/ycm_support_libs.dir

@@ -22,6 +22,6 @@ export ARCHFLAGS='-arch i386 -arch x86_64'
 export EDITOR="vim"
 
 # ALIASES
-alias vim="mvim -v"
+# alias vim="mvim -v"
 
 
