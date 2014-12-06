@@ -7,6 +7,8 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
+set backspace=2
+
 "Pathogen
 execute pathogen#infect()
 call pathogen#helptags()
