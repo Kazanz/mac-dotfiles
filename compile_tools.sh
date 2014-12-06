@@ -1,7 +1,8 @@
 # Compile Command T
+sudo port select ruby ruby18
 cd ~/.vim/bundle/command-t/ruby/command-t
 ruby extconf.rb
-make
+sudo make
 
 # For YouCompleteMe / requieres installing cmake http://www.cmake.org/download/
 cd ~/.vim/bundle/YouCompleteMe
