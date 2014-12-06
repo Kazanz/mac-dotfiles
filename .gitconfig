@@ -2,4 +2,5 @@
 	co = checkout
 	st = status
 	cm = commit -m
-        a = add -A
+    a = add -A
+    dc = diff --cached

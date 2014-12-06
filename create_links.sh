@@ -13,6 +13,7 @@ ln -s mac-dotfiles/.gitignore .gitignore
 ln -s mac-dotfiles/.vimrc .vimrc
 ln -s mac-dotfiles/.vim/ .vim
 ln -s mac-dotfiles/ycm_build/ ycm_build
+ln -s mac-dotfiles/git-completion.bash/ git-completion.bash 
 
 # For virtualenvwrapper
 export WORKON_HOME=~/envs
