@@ -80,8 +80,8 @@ nnoremap <C-H> <C-W><C-H>
 let g:ycm_key_list_previous_completion=['<Up>']
 
 "" Ultisnips
-let g:UltiSnipsListSnippets="<c-s-tab>"
-let g:UltiSnipsExpandTrigger = "<c-s-v>"
+let g:UltiSnipsListSnippets="<C-s-tab>"
+let g:UltiSnipsExpandTrigger = "<C-s-v>"
 let g:UltiSnipsSnippetDirectories=["UltiSnips", "my-snippets"]
 
 """"" Settings for taglist.vim

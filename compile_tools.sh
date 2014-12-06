@@ -11,3 +11,5 @@ cd ~/.vim/bundle/YouCompleteMe
 . install.sh
 cd ~/ycm_build
 cmake -G "Unix Makefiles" . ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp
+
+# Finally open vim and run :helptags .
