@@ -22,7 +22,8 @@ export ARCHFLAGS='-arch i386 -arch x86_64'
 export EDITOR="vim"
 
 # ALIASES
-# alias vim="mvim -v"
+alias runserver="while true; do sleep 1; python manage.py runserver_plus; done;"
+alias pyma="python manage.py"
 
 
 
