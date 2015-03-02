@@ -1,3 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/Users/kazanz/.vim'
+let g:netrw_dirhist_2='/Users/kazanz/projects/embervite/embervite/tests'
+let g:netrw_dirhist_3='/Users/kazanz/projects/embervite/embervite/tests/events_tests'
+let g:netrw_dirhist_4='/Users/kazanz/projects/personal/embervite/embervite'
+let g:netrw_dirhist_5='/Users/kazanz/projects/personal/liloli/liloli'
+let g:netrw_dirhist_6='/Users/kazanz/projects/personal/liloli/.git'
+let g:netrw_dirhist_7='/Users/kazanz/projects/hivelocity/hivelocity-core/api/views'
+let g:netrw_dirhist_8='/Users/kazanz/.ssh'
+let g:netrw_dirhist_9='/Users/kazanz/projects/hivelocity/hivelocity-core/core-build'

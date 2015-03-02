@@ -10,3 +10,9 @@ alias gci='git ci'
 alias grb='git rb'
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+export PYTHONDONTWRITEBYTECODE=1
+
+
+# Docker-compose
+alias dco="docker-compose"

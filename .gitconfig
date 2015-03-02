@@ -4,3 +4,6 @@
 	cm = commit -m
     a = add -A
     dc = diff --cached
+[user]
+	name = Zach Kazanski\n
+	email = kazanski.zachary@gmail.com

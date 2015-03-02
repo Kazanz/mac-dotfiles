@@ -56,6 +56,9 @@ set noswapfile
 
 set colorcolumn=80
 
+"Turn off the ropeproject folder
+let g:pymode_rope_lookup_project = 0
+
 "Command P
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
@@ -100,3 +103,5 @@ set tags=$VIRTUAL_ENV/tags,~/tags;/
 map <F5> :rightbelow vsp <CR>:exec("tag ".expand("<cword>"))<CR>
 " in addition to ctrl+] , i could press F5 to open up a vertical split in vim and
 " view the source coden -s mac-dotfiles/.bash_profile .bash_profile
+"
+"

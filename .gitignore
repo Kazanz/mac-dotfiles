@@ -1,2 +1,6 @@
 .virtualenvs/*
 !.virtualenvs/postactivate
+
+database.db
+
+envs/
