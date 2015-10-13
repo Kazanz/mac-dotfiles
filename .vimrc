@@ -1,7 +1,3 @@
-execute pathogen#infect()
-syntax on
-filetype plugin indent on
-
 set smartindent
 set tabstop=4
 set shiftwidth=4
@@ -104,4 +100,6 @@ map <F5> :rightbelow vsp <CR>:exec("tag ".expand("<cword>"))<CR>
 " in addition to ctrl+] , i could press F5 to open up a vertical split in vim and
 " view the source coden -s mac-dotfiles/.bash_profile .bash_profile
 "
-"
+
+" Vim-airine on
+set laststatus=2

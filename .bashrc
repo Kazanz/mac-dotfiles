@@ -1,13 +1,9 @@
-
 # MacPorts Installer addition on 2014-12-02_at_11:42:02: adding an appropriate PATH variable for use with MacPorts.
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 # Finished adapting your PATH environment variable for use with MacPorts.
 
 # macports
 export CFLAGS="-I /opt/local/include -L /opt/local/lib $CFLAGS"
-
-# python path
-#export PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:$PATH"
 
 # needed for virtualenvwrapper
 export WORKON_HOME=$HOME/envs
@@ -47,4 +43,22 @@ export PYTHONDONTWRITEBYTECODE=1
 
 
 # Docker-compose
-alias dco="docker-compose"
+alias doc="docker-compose"
+
+
+# MacPorts Bash shell command completion (For git)
+if [ -f /opt/local/etc/bash_completion ]; then
+    . /opt/local/etc/bash_completion
+fi
+
+# Homebrew git completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+    . $(brew --prefix)/etc/bash_completion
+fi
+
+# Terraform
+export PATH=$PATH:~/opt/terraform
+export PATH=$PATH:~/opt/packer
+
+# Node
+export PATH="~/.node_modules_global/bin:$PATH"
